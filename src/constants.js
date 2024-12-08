@@ -960,9 +960,27 @@ technologies: ['Machine Learning', 'Hugging Face'],
   },  
     
   ],
-    }
+    },
+    {
+      id:8,
+    title: 'SIGCHI Website',
+    description: 'This website serves as official website for SIGCHI IITKanpur Student Chapter',
+    image: "/images/react.jpeg",
+    git: "https://iitksigchi.acm.org",
+    technologies: ['Web Deveopment','UI/UX','React',],
+    long_description: 'This website serves as official website for SIGCHI IITKanpur Student Chapter',
+      coreMembers :[
+      {
+        name: "Sumit Vishwakarma",
+        role: "Project Lead and Contributor",
+        image: "/images/pfp/sum.jpg",
+        github: "https://github.com/vsumityy23",
+        linkedin:"https://www.linkedin.com/in/sumit-vishwakarma-2a059127b/",
+        description: "Hey ,I am Sumit from 💡 . My interests include machine learning, web development, and music appreciation. Feeding my past as data, and letting the model predict my future"
+      },
+  ],
+},
 ]
-
 
 export const EMAIL_JS_SERVICE_ID = 'service_vpv8xpp';
 export const EMAIL_JS_TEMPLATE_ID = 'template_i3uvdt9';
