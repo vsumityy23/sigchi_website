@@ -814,7 +814,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: "Software was simple...until it met grandma testing"
     },
     {
-      name: "{Ritesh Baviskar}",
+      name: "Ritesh Baviskar",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -822,7 +822,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Himanshu Sharma}",
+      name: "Himanshu Sharma",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -830,7 +830,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Ayush Kumar}",
+      name: "Ayush Kumar",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -838,7 +838,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Praneeth}",
+      name: "Praneeth",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -846,7 +846,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Mukul Saini}",
+      name: "Mukul Saini",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -854,7 +854,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Aditya Ranjan}",
+      name: "Aditya Ranjan",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -862,7 +862,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Arnav Jagtap}",
+      name: "Arnav Jagtap",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -870,7 +870,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Dhruv Rai}",
+      name: "Dhruv Rai",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -878,7 +878,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Akshat}",
+      name: "Akshat",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -886,7 +886,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{ShaonDeep}",
+      name: "ShaonDeep",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -894,7 +894,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Ishita}",
+      name: "Ishita",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -902,7 +902,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Abhigyan Deka}",
+      name: "Abhigyan Deka",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -910,7 +910,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Vaibhav}",
+      name: "Vaibhav",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -918,7 +918,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Krishna Agrawal}",
+      name: "Krishna Agrawal",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -926,7 +926,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Durba}",
+      name: "Durba",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
