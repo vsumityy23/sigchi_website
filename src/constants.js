@@ -97,16 +97,15 @@ export const chapterOfficers2025 = [
       github: "https://github.com/divyanshis24",
       linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
       description: "'Just make it user-friendly!' --cue existential crisis "
-  
     },
-      {
-        name: "Devdhar U Patil",
-        role: "Secretary",
-        image: "/images/pfp/Photo.png",
-        github: "https://github.com/Devdharpatil",
-        linkedin:"https://www.linkedin.com/in/devdhar-patil/",
-        description: ""
-    },
+    //   {
+    //     name: "Devdhar U Patil",
+    //     role: "Secretary",
+    //     image: "/images/pfp/Photo.png",
+    //     github: "https://github.com/Devdharpatil",
+    //     linkedin:"https://www.linkedin.com/in/devdhar-patil/",
+    //     description: ""
+    // },
   ];
 
 export const coreMembers2025 = [
@@ -130,6 +129,8 @@ export const coreMembers2025 = [
 
 export const secretaries2025 = [
   ];
+
+export const otherMembers2025 = []
 
 ////////////////////////////////////////////////2024 TEAM//////////////////////////////////////////////////////////////////////////
 export const facultyAdvisor2024 = [
