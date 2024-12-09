@@ -49,7 +49,7 @@ const Contact = () => {
 				EMAIL_JS_TEMPLATE_ID,
 				{
 					from_name: username,
-					to_name: "SUMIT",
+					to_name: "SIGCHI Team Member",
 					reply_to: user_email,
 					to_email: "hci.iitk@gmail.com",
 					message: user_message,
