@@ -202,7 +202,7 @@ const Home = () => {
             src={logo}
             alt='Chapter Logo'
             // className='w-44 h-44 rounded-full object-cover mb-3'
-			className='w-45 h-45 rounded-full object-cover mb-4'
+			className='w-40 h-40 rounded-full object-cover mb-4'
           />
           <h1 className='text-[2.5rem] font-extrabold mt-2'>
             ACM SIGCHI <span className='text-yellow-200 font-extrabold'> IIT KANPUR STUDENT CHAPTER</span>

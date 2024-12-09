@@ -248,7 +248,7 @@ const Team = () => {
   // Structured team data by year
   const teamDataByYear = [
     {
-      year: "2025 Team",
+      year: "2024-2025 Team",
       facultyAdvisor: facultyAdvisor2025,
       chapterOfficers: chapterOfficers2025,
       coreMembers: coreMembers2025,
@@ -256,7 +256,7 @@ const Team = () => {
       otherMembers: otherMembers2025,
     },
     {
-      year: "2024 Team (Founding Team)",
+      year: "2023-2024 Team (Founding Team)",
       facultyAdvisor: facultyAdvisor2024,
       chapterOfficers: chapterOfficers2024,
       coreMembers: coreMembers2024,
