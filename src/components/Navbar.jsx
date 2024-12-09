@@ -1,54 +1,144 @@
-import React, { useState ,useEffect} from 'react';
-import { Link,useLocation } from 'react-router-dom';
+import React from 'react';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
+import Footer from './Footer';
+import { upcomingEvents, pastEvents } from '../constants'; // Import events from constants
 
-const Navbar = () => {
-  const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
+// Import event icon from src/assets
+import eventIcon from '../assets/calendar-icon.png'; // Adjust path based on your structure
 
-  const toggleMobileMenu = () => {
-    setMobileMenuOpen(!isMobileMenuOpen);
-  };
-
-  const closeMobileMenu = () => {
-    setMobileMenuOpen(false);
-  };
-
-  const { pathname } = useLocation();
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
+const Experience = () => {
   return (
-    <nav className="bg-gray-800 p-4 text-white fixed w-full z-10 top-0" style={{ cursor: 'default' }}>
-      <div className="mx-auto text-center flex w-5/6 justify-end">
-        <div className="hidden sm:flex space-x-5 items-center text-sm">
-          <Link to='/'>Home</Link>
-          <Link to='/projects'>Projects</Link>
-          <Link to='/experience'>Events</Link>
-          <Link to='/team'>Team</Link>
-          <Link to='/contact'>Contact</Link>
-        </div>
-
-        <div className="sm:hidden">
-          <button onClick={toggleMobileMenu} className="text-xl focus:outline-none">
-            {isMobileMenuOpen ? '✕' : '☰'}
-          </button>
-        </div>
-        <div className={`sm:hidden fixed top-0 left-0 w-full h-full bg-gray-800 text-center ${isMobileMenuOpen ? 'flex flex-col items-center justify-center' : 'hidden'}`}>
-          <button onClick={closeMobileMenu} className="text-xl absolute top-4 right-4 focus:outline-none">
-            ✕
-          </button>
-          <ul className="font-medium text-2xl space-y-4">
-            <li><Link to='/' onClick={closeMobileMenu}>Home</Link></li>
-            <li><Link to='/projects' onClick={closeMobileMenu}>Projects</Link></li>
-            <li><Link to='/experience' onClick={closeMobileMenu}>Events</Link></li>
-            <li><Link to='/team' onClick={closeMobileMenu}>Team</Link></li>
-            <li><Link to='/contact' onClick={closeMobileMenu}>Contact</Link></li>
-          </ul>
-        </div>
+    <div
+      className="experience bg-black w-screen text-white  pt-16 overflow-x-hidden"
+      id="experience"
+    >
+      <div className="pt-12 sm:px-16 text-center">
+        <h2 className="text-4xl sm:text-5xl font-extrabold mt-2">
+          Upcoming Events
+        </h2>
       </div>
-    </nav>
+
+      {/* Upcoming Events */}
+      <VerticalTimeline className="mt-9">
+        {upcomingEvents.map((event, index) => (
+          <VerticalTimelineElement
+            key={index}
+            className="relative vertical-timeline-element--work"
+            contentStyle={{
+              background: "#151030",
+              color: "#fff",
+              borderRadius: "8px",
+              padding: "20px",
+            }}
+            contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+            date={event.date}
+            iconStyle={{
+              background: "#4A5568",
+              color: "#fff",
+              borderRadius: "50%",
+              boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
+            }}
+            icon={
+              <a
+                className="flex justify-center items-center w-full h-full"
+                href={event.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={eventIcon} // Using the imported event icon
+                  alt={event.title}
+                  className="w-[50%] h-[50%] object-contain"
+                />
+              </a>
+            }
+          >
+            <div>
+              <h3 className="text-white text-[24px] font-bold">
+                {event.title}
+              </h3>
+              <p
+                className="text-gray-400 text-[16px] font-semibold mb-4 "
+                style={{ margin: 0 }}
+              >
+                {event.description}
+              </p>
+            </div>
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
+
+      {/* Past Events */}
+      <div className="pt-12 sm:px-16 text-center">
+        {/* <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>About Us</h2> */}
+        <h2 className="text-4xl sm:text-5xl font-extrabold mt-2">
+          Past Events
+        </h2>
+      </div>
+      <VerticalTimeline className="mt-9">
+        {pastEvents.map((event, index) => (
+          <VerticalTimelineElement
+            key={index}
+            className="relative vertical-timeline-element--work"
+            contentStyle={{
+              background: "#2D2F3B",
+              color: "#fff",
+              borderRadius: "8px",
+              padding: "20px",
+            }}
+            contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+            date={event.date}
+            iconStyle={{
+              background: "#4A5568",
+              color: "#fff",
+              borderRadius: "50%",
+              boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.5)",
+            }}
+            icon={
+              <a
+                className="flex justify-center items-center w-full h-full"
+                href={event.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={eventIcon} // Using the imported event icon
+                  alt={event.title}
+                  className="w-[50%] h-[50%] object-contain"
+                />
+              </a>
+            }
+          >
+            <div>
+              <h3 className="text-white text-[24px] font-bold">
+                {event.title}
+              </h3>
+              <p
+                className="text-gray-400 text-[16px] font-semibold mb-10 pb-5"
+                style={{ margin: 0 }}
+              >
+                {event.description}
+              </p>
+              <div>
+                <a
+                  href={event.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 text-red-300 border border-gray-200 rounded-lg shadow p-2 hover:text-green-500 duration-300 transition-colors"
+                >
+                  More Info
+                </a>
+              </div>
+            </div>
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
+
+      {/* Footer */}
+      <Footer />
+    </div>
   );
 };
 
-export default Navbar;
+export default Experience;
