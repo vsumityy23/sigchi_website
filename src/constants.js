@@ -337,7 +337,7 @@ export const chapterOfficers2024 = [
                 {
         name: "Cezan Vispi Damania",
         role: "Secretary",
-        image: "/images/pfp/acc.png",
+        image: "/images/pfp/2024Team/Cezan Damania.jpeg",
         github: "#",
         linkedin:"https://www.linkedin.com/in/cezan-damania-164935277/",
         description: "Secretary"
