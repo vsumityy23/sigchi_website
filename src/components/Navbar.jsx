@@ -27,7 +27,7 @@ const Navbar = () => {
       <div className="mx-auto flex items-center justify-between w-5/6">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
-          <img src={logo} alt="Logo" className="h-12 w-12" />
+          <img src={logo} alt="Logo" className="h-12 w-12 rounded-full" />
         </div>
 
         {/* Desktop Menu */}
