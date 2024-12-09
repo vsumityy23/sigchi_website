@@ -83,12 +83,12 @@ const Home = () => {
 				<div className='sm:px-16 px-2'>
 				<h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>About Us</h2>
 				<p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'> The ACM SIGCHI IIT Kanpur chapter is a student-led initiative at the Indian Institute of Technology
-                    Kanpur focused on Human-Computer Interaction (HCI). We are an interdisciplinary community affiliated with <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.cse.iitk.ac.in/index.html' target='_blank'>Department of Computer Science, IIT Kanpur </a>of students and faculty
+                    Kanpur focused on Human-Computer Interaction (HCI). We are an interdisciplinary community of students and faculty affiliated with <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.cse.iitk.ac.in/index.html' target='_blank'>Department of Computer Science, IIT Kanpur </a> and other departments,
                     focused on making human-computer interaction more accessible and intuitive. We organize various activities such as conferences, seminars,
                     workshops, and networking events throughout the year. The chapter comprises students with diverse backgrounds
                     including AI/ML, AR/VR, design, computer science, robotics, electrical engineering, and more. We aim to leverage
                     technology for the betterment of humanity under the mentorship of <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.acm.org/' target='_blank'>ACM (Association for Computing Machinery) </a>
-					and <a className='text-green-300 hover:text-green-500 duration-300' href='https://sigchi.org/' target='_blank'>SIGCHI ( Special Interest Group on Computer-Human Interaction ) </a> and
+					and <a className='text-green-300 hover:text-green-500 duration-300' href='https://sigchi.org/' target='_blank'>SIGCHI ( Special Interest Group on Computer-Human Interaction ) </a> .
                     While based out of IIT Kanpur, the chapter extends invitation to collaborate on anyone who is
                     interested in HCI and
                     wishes to develop real world solutions using computing technologies.
