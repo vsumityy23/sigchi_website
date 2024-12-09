@@ -951,27 +951,6 @@ technologies: ['Machine Learning', 'Hugging Face'],
   },  
     
   ],
-    },
-      {
-id:8,
-title: 'ACM-SIGCHI-IITK Website',
-description: 'The official website for ACM SIGCHI IIT Kanpur Student Chapter is being developed as a hub for promoting human-computer interaction (HCI) initiatives. It will feature events, projects, resources, and member profiles to foster collaboration and learning.Designed with a modern and responsive interface using React.js and Tailwind CSS, the website aims to provide a seamless user experience across devices.',
-image: "/images/react.jpeg",
-git: "#",
-long_description: 'The official website for ACM SIGCHI IIT Kanpur Student Chapter is being developed as a hub for promoting human-computer interaction (HCI) initiatives. It will feature events, projects, resources, and member profiles to foster collaboration and learning.',
-
-technologies: ['Web Development', 'React JS','Node JS'],
-    coreMembers :[
-    {
-      name: "Sumit Vishwakarma",
-      role: "Lead",
-      image: "/images/pfp/sum.jpg",
-      github: "https://github.com/vsumityy23",
-      linkedin:"https://www.linkedin.com/in/sumit-vishwakarma-2a059127b/",
-      description: "Hey ,I am Sumit from 💡 . My interests include machine learning, web development, and music appreciation. Feeding my past as data, and letting the model predict my future"
-    }
-    
-  ]
     }
 ]
 
