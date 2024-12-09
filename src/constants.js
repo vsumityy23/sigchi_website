@@ -100,7 +100,7 @@ export const chapterOfficers2025 = [
     },
       {
         name: "Devdhar U Patil",
-        role: "Secretary",
+        role: "Office Secretary",
         image: "/images/pfp/Photo.png",
         github: "https://github.com/Devdharpatil",
         linkedin:"https://www.linkedin.com/in/devdhar-patil/",
