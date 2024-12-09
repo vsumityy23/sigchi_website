@@ -715,77 +715,77 @@ export const project = [
     },
   ],
 },
-{
-  id:6,
-title: 'ReproHealth AI',
-description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
-image: "/images/ReproHealthAI.png",
-git: "https://github.com/SIGCHI-IITK/ReproHealth-AI",
-long_description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
+// {
+//   id:6,
+// title: 'ReproHealth AI',
+// description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
+// image: "/images/ReproHealthAI.png",
+// git: "https://github.com/SIGCHI-IITK/ReproHealth-AI",
+// long_description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
 
-technologies: ['UI/UX', 'Machine Learning','Software Development and Design'],
-   coreMembers :[
-{
-name: "Shashwat Gupta",
-role: "Member",
-image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
-github: "https://github.com/ShashwatGupta2001/",
-linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
-description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
-},
-{
-name: "Riya Sanket Kashive",
-role: "Member",
-image: "/images/pfp/Pfp - Riya Kashive.jpg",
-github: "https://github.com/thelatephylosopher",
-linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
-description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
-},
-{
-name: "Divyanshi Sharma ",
-role: "Member",
-image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
-github: "https://github.com/divyanshis24",
-linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
-description: "'Just make it user-friendly!' --cue existential crisis "
-},
-{
-  name: "Utkarsh Singhal",
-  role: "Member",
-  image: "/images/pfp/IMG_8661 - Utkarsh Singhal.jpg",
-  github: "https://github.com/UtkarshSinghal04",
-  linkedin:"https://www.linkedin.com/in/utkarsh-singhal-175545250/",
-  description: "Software was simple...until it met grandma testing"
-},
-{
-  name: "Atishay Jain",
-  role: "Member",
-  image: "/images/pfp/Atishay.jpeg",
-  github: "https://github.com/atishay29/Samvaad_saathi",
-  linkedin:"https://www.linkedin.com/in/atishay-jain-at20/",
-  description: "Passionate about tech and design."
-},
-{
-  name: "Swati Kumari",
-  role: "Member",
-  image: "/images/pfp/Swati.jpeg",
-  github: "https://github.com/Swati-sankrit",
-  linkedin:"https://www.linkedin.com/in/swati-sankrit/",
-  description: ""
-},
-{
-  name: "Anupriya Tuli",
-  role: "Project Mentor",
-  image: "/images/pfp/AnupriyaTuli.jpeg",
-  github: "https://anupriyatuli.github.io/publication.html",
-  linkedin:"https://www.linkedin.com/in/anupriya-tuli/",
-  description: ""
-},
+// technologies: ['UI/UX', 'Machine Learning','Software Development and Design'],
+//    coreMembers :[
+// {
+// name: "Shashwat Gupta",
+// role: "Member",
+// image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
+// github: "https://github.com/ShashwatGupta2001/",
+// linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
+// description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
+// },
+// {
+// name: "Riya Sanket Kashive",
+// role: "Member",
+// image: "/images/pfp/Pfp - Riya Kashive.jpg",
+// github: "https://github.com/thelatephylosopher",
+// linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
+// description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
+// },
+// {
+// name: "Divyanshi Sharma ",
+// role: "Member",
+// image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
+// github: "https://github.com/divyanshis24",
+// linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
+// description: "'Just make it user-friendly!' --cue existential crisis "
+// },
+// {
+//   name: "Utkarsh Singhal",
+//   role: "Member",
+//   image: "/images/pfp/IMG_8661 - Utkarsh Singhal.jpg",
+//   github: "https://github.com/UtkarshSinghal04",
+//   linkedin:"https://www.linkedin.com/in/utkarsh-singhal-175545250/",
+//   description: "Software was simple...until it met grandma testing"
+// },
+// {
+//   name: "Atishay Jain",
+//   role: "Member",
+//   image: "/images/pfp/Atishay.jpeg",
+//   github: "https://github.com/atishay29/Samvaad_saathi",
+//   linkedin:"https://www.linkedin.com/in/atishay-jain-at20/",
+//   description: "Passionate about tech and design."
+// },
+// {
+//   name: "Swati Kumari",
+//   role: "Member",
+//   image: "/images/pfp/Swati.jpeg",
+//   github: "https://github.com/Swati-sankrit",
+//   linkedin:"https://www.linkedin.com/in/swati-sankrit/",
+//   description: ""
+// },
+// {
+//   name: "Anupriya Tuli",
+//   role: "Project Mentor",
+//   image: "/images/pfp/AnupriyaTuli.jpeg",
+//   github: "https://anupriyatuli.github.io/publication.html",
+//   linkedin:"https://www.linkedin.com/in/anupriya-tuli/",
+//   description: ""
+// },
 
 
 
-],
-},
+// ],
+// },
 {
 id:7,
 title: 'Vidya Vaani',
