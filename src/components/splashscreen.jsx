@@ -26,7 +26,7 @@ function Screen() {
           }}
           className="flex h-full w-full items-center justify-center bg-white"
         >
-          <img src="/nike-logo.png" alt="" className="w-80" />
+          <img src="/acm-logo.png" alt="" className="w-80" />
         </motion.div>
       </div>
       <motion.div
