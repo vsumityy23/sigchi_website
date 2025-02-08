@@ -20,23 +20,23 @@ const Navbar = () => {
   }, [pathname]);
 
   return (
-    <nav
-      className="bg-gray-800 p-4 text-white fixed w-full z-10 top-0"
-      style={{ cursor: "default" }}
-    >
+    <nav className="bg-gray-800 p-4 text-white fixed w-full z-10 top-0">
       <div className="mx-auto flex items-center justify-between w-5/6">
         {/* Logo Section */}
         <div className="flex items-center space-x-2">
           <img src={logo} alt="Logo" className="h-12 w-12 rounded-full" />
         </div>
 
-        {/* Desktop Menu */}
+        {/* Desktop Menu (Kept Right) */}
         <div className="hidden sm:flex space-x-5 items-center text-sm">
           <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>
           <Link to="/experience">Events</Link>
           <Link to="/team">Team</Link>
           <Link to="/contact">Contact</Link>
+          <Link to="/load" className="font-bold text-[#EE9D41]">
+            Summer School
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -87,6 +87,15 @@ const Navbar = () => {
             <li>
               <Link to="/contact" onClick={closeMobileMenu}>
                 Contact
+              </Link>
+            </li>
+            <li>
+              <Link
+                to="/contact"
+                className="font-bold text-[#EE9D41]"
+                onClick={closeMobileMenu}
+              >
+                Summer School
               </Link>
             </li>
           </ul>
