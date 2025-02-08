@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import Footer from "./Footer";
-import StatsSection from "./progress";
 import logoss from "../assets/logoss.jpg"
 import Navbar from "./Navbar";
 
@@ -177,7 +176,7 @@ const SummerSchool = () => {
           <p className="uppercase tracking-[0.5em] text-white font-bold text-sm md:text-base">
             ACM SIGCHI IIT KANPUR STUDENT CHAPTER
           </p>
-          <span className="block text-4xl md:text-6xl py-5 font-bold font-oswald text-transparent bg-clip-text bg-[url('https://i.ibb.co/RDTnNrT/animated-text-fill.png')] animate-text">
+          <span className="block text-4xl md:text-6xl py-5 font-bold font-oswald text-transparent bg-clip-text   animate-text">
             Summer School
           </span>
 
