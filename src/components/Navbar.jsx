@@ -91,7 +91,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link
-                to="/contact"
+                to="/load"
                 className="font-bold text-[#EE9D41]"
                 onClick={closeMobileMenu}
               >
