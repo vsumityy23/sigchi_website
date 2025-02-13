@@ -33,7 +33,7 @@ function Layout() {
         <Route path="/summerschool" element={<SummerSchool />} />
         <Route path="/project/:id" element={<ProjectDetails />} />
       </Routes>
-      <Footer />
+    
     </>
   );
 }
