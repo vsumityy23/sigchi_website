@@ -18,10 +18,7 @@ export const services = [
         title: "Cognitive Science ",
         icon: 'https://static.vecteezy.com/system/resources/thumbnails/019/038/692/small_2x/business-team-creating-artificial-intelligence-machine-learning-and-artificial-intelligence-concept-png.png',
     },
-
-
 ];
-
 
 //////////////////////////////////////////////////////HOME PAGE TAGLINE//////////////////////////////////////////////////////////
 export const name = 'Fostering HCI Awareness through Campus-Wide Collaboration and Interactive Engagement';
@@ -34,14 +31,6 @@ export const upcomingEvents = [
     description: "The ACM SIGCHI IITK Student Chapter is excited to announce the upcoming Summer School 2024—an immersive experience designed for students to explore Human-Computer Interaction (HCI). This program will feature hands-on sessions, interactive workshops and lectures led by distinguished experts in the field.The Summer School offers a unique opportunity to learn directly from leaders in CHI research and connect with a vibrant community passionate about creating impactful, user-centered solutions.",
   link:"#",  
   },
-   {
-    title: "  HCI For Health",
-    date: "",
-    description: "Join us for a focused discussion on HCI in health, tackling sensitive topics like mental and menstrual health. We’ll explore how to conduct user research thoughtfully, design solutions with empathy, and address health issues that are deeply personal. This event aims to foster a compassionate approach to health technology, ensuring user emotions and privacy are prioritized.",
-  link:"#",  
-  },
-  
-  
 ];
 
 ////////////////////////////////////////////////////PAST EVENTS///////////////////////////////////////////////////////////////////////
@@ -108,11 +97,10 @@ export const chapterOfficers2025 = [
       github: "https://github.com/divyanshis24",
       linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
       description: "'Just make it user-friendly!' --cue existential crisis "
-  
     },
       {
         name: "Devdhar U Patil",
-        role: "Secretary",
+        role: "Office Secretary",
         image: "/images/pfp/Photo.png",
         github: "https://github.com/Devdharpatil",
         linkedin:"https://www.linkedin.com/in/devdhar-patil/",
@@ -121,10 +109,29 @@ export const chapterOfficers2025 = [
   ];
 
 export const coreMembers2025 = [
+  {
+    name: "Indu Rallabhandi",
+    role: "Leader",
+    image: "/images/pfp/2025Team/Indu.jpeg",
+    github: "",
+    linkedin: "",
+    description: "",
+    },
+    {
+      name: "Harshit Goel",
+      role: "Leader",
+      image: "/images/pfp/acc.png",
+      github: "",
+      linkedin: "",
+      description: "",
+      },
   ];
 
 export const secretaries2025 = [
   ];
+
+export const otherMembers2025 = []
+
 ////////////////////////////////////////////////2024 TEAM//////////////////////////////////////////////////////////////////////////
 export const facultyAdvisor2024 = [
   {
@@ -330,7 +337,7 @@ export const chapterOfficers2024 = [
                 {
         name: "Cezan Vispi Damania",
         role: "Secretary",
-        image: "/images/pfp/acc.png",
+        image: "/images/pfp/2024Team/Cezan Damania.jpeg",
         github: "#",
         linkedin:"https://www.linkedin.com/in/cezan-damania-164935277/",
         description: "Secretary"
@@ -348,6 +355,102 @@ export const chapterOfficers2024 = [
 
 
   export const otherMembers2024 = [
+  {
+    name: "Khush Khandelwal",
+    role: "Member",
+    image: "/images/pfp/Khush.jpeg",
+    github: "https://github.com/khandelwalkhush05",
+    linkedin:"https://www.linkedin.com/in/khush-khandelwal-211999223/",
+    description: "Interested in ML and solving intriguing problems."
+  },
+  {
+  name: "Utkarsh Agrawal",
+  role: "Member",
+  image: "/images/pfp/2024Team/Utkarsh Agrawal.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Swati Kumari",
+  role: "Member",
+  image: "/images/pfp/Swati.jpeg",
+  github: "https://github.com/Swati-sankrit",
+  linkedin:"https://www.linkedin.com/in/swati-sankrit/",
+  description: "",
+  },
+  {
+  name: "Shashikant Yadav",
+  role: "Member",
+  image: "/images/pfp/2024Team/Shashikant Yadav.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Arindom Bora",
+  role: "Member",
+  image: "/images/pfp/2024Team/Arindom Bora.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Lazar Tony",
+  role: "Member",
+  image: "/images/pfp/2024Team/Lazar Tony.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Rajashekhar V S",
+  role: "Member",
+  image: "/images/pfp/2024Team/Rajashekhar VS.png",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Himanshu Giria",
+  role: "Member",
+  image: "/images/pfp/2024Team/Himanshu Giria.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Indu Rallabhandi",
+  role: "Member",
+  image: "/images/pfp/2025Team/Indu.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Anwesh Saha",
+  role: "Member",
+  image: "/images/pfp/2024Team/Anwesh Saha.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Sovan Sahoo",
+  role: "Member",
+  image: "/images/pfp/2024Team/Sovan Sahoo.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
+  {
+  name: "Shashaank Varma",
+  role: "Member",
+  image: "/images/pfp/2024Team/Shashank Varma.jpeg",
+  github: "",
+  linkedin: "",
+  description: "",
+  },
     {
       name: "Siddharth Garg",
       role: "Member",
@@ -358,38 +461,6 @@ export const chapterOfficers2024 = [
       },
       {
       name: "Harshit Goel",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Utkarsh Agrawal",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Swati Kumari",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Shashikant Yadav",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Arindom Bora",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -413,87 +484,7 @@ export const chapterOfficers2024 = [
       description: "",
       },
       {
-      name: "Sovan Sahoo",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Himanshu Karnatak",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
       name: "Vikram Kumar",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Shashaank Varma",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Lazar Tony",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Rajashekhar V S",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Himanshu Giria",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Indu Rallabhandi",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Atishay Jain",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Sruti Ragavan",
-      role: "Member",
-      image: "/images/pfp/acc.png",
-      github: "",
-      linkedin: "",
-      description: "",
-      },
-      {
-      name: "Anwesh Saha",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -697,8 +688,8 @@ export const project = [
       {
         name: "Swati Kumari",
         role: "Member",
-        image: "/images/pfp/acc.png",
-        github: "",
+        image: "/images/pfp/Swati.jpeg",
+        github: "https://github.com/Swati-sankrit",
         linkedin:"https://www.linkedin.com/in/swati-sankrit/",
         description: ""
       },
@@ -724,77 +715,77 @@ export const project = [
     },
   ],
 },
-{
-  id:6,
-title: 'ReproHealth AI',
-description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
-image: "/images/ReproHealthAI.png",
-git: "https://github.com/SIGCHI-IITK/ReproHealth-AI",
-long_description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
+// {
+//   id:6,
+// title: 'ReproHealth AI',
+// description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
+// image: "/images/ReproHealthAI.png",
+// git: "https://github.com/SIGCHI-IITK/ReproHealth-AI",
+// long_description: 'Analysing the impact of AI on Reproductive health and its impact on physical, mental and emotional health.',
 
-technologies: ['UI/UX', 'Machine Learning','Software Development and Design'],
-   coreMembers :[
-{
-name: "Shashwat Gupta",
-role: "Member",
-image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
-github: "https://github.com/ShashwatGupta2001/",
-linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
-description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
-},
-{
-name: "Riya Sanket Kashive",
-role: "Senior Mentor",
-image: "/images/pfp/Pfp - Riya Kashive.jpg",
-github: "https://github.com/thelatephylosopher",
-linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
-description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
-},
-{
-name: "Divyanshi Sharma ",
-role: "Junior Team Member",
-image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
-github: "https://github.com/divyanshis24",
-linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
-description: "'Just make it user-friendly!' --cue existential crisis "
-},
-{
-  name: "Utkarsh Singhal",
-  role: "Vice-Chair",
-  image: "/images/pfp/IMG_8661 - Utkarsh Singhal.jpg",
-  github: "https://github.com/UtkarshSinghal04",
-  linkedin:"https://www.linkedin.com/in/utkarsh-singhal-175545250/",
-  description: "Software was simple...until it met grandma testing"
-},
-{
-  name: "Atishay Jain",
-  role: "Treasurer and Co-founder",
-  image: "/images/pfp/Atishay.jpeg",
-  github: "https://github.com/atishay29/Samvaad_saathi",
-  linkedin:"https://www.linkedin.com/in/atishay-jain-at20/",
-  description: "Passionate about tech and design."
-},
-{
-  name: "Swati Kumari",
-  role: "Member",
-  image: "/images/pfp/acc.png",
-  github: "",
-  linkedin:"https://www.linkedin.com/in/swati-sankrit/",
-  description: ""
-},
-{
-  name: "Anupriya Tuli",
-  role: "Project Mentor",
-  image: "/images/pfp/AnupriyaTuli.jpeg",
-  github: "https://anupriyatuli.github.io/publication.html",
-  linkedin:"https://www.linkedin.com/in/anupriya-tuli/",
-  description: ""
-},
+// technologies: ['UI/UX', 'Machine Learning','Software Development and Design'],
+//    coreMembers :[
+// {
+// name: "Shashwat Gupta",
+// role: "Member",
+// image: "/images/pfp/headshot1 - Shashwat Gupta.jpeg",
+// github: "https://github.com/ShashwatGupta2001/",
+// linkedin:"https://www.linkedin.com/in/shashwat-gupta-iitk/",
+// description: "Founder and Chair of ACM SIGCHI, IIT Kanpur Chapter.Passionate about HCI, AI and Tech."
+// },
+// {
+// name: "Riya Sanket Kashive",
+// role: "Member",
+// image: "/images/pfp/Pfp - Riya Kashive.jpg",
+// github: "https://github.com/thelatephylosopher",
+// linkedin:"http://www.linkedin.com/in/riya-sanket-kashive",
+// description: "A woman of the renaissance by heart, I thoroughly enjoy the processes of composition, comprehension and discussion of ideas in all forms, abstract and concrete, science and art. This interdisciplinary fascination brings me to HCI, where I aim to fulfill people's unmet and unarticulated needs using my limited but growing understanding of computers and other technology."
+// },
+// {
+// name: "Divyanshi Sharma ",
+// role: "Member",
+// image: "/images/pfp/20241020_000759 - Divyanshi Sharma.jpg",
+// github: "https://github.com/divyanshis24",
+// linkedin:"https://www.linkedin.com/in/divyanshi-sharma-11557a24a",
+// description: "'Just make it user-friendly!' --cue existential crisis "
+// },
+// {
+//   name: "Utkarsh Singhal",
+//   role: "Member",
+//   image: "/images/pfp/IMG_8661 - Utkarsh Singhal.jpg",
+//   github: "https://github.com/UtkarshSinghal04",
+//   linkedin:"https://www.linkedin.com/in/utkarsh-singhal-175545250/",
+//   description: "Software was simple...until it met grandma testing"
+// },
+// {
+//   name: "Atishay Jain",
+//   role: "Member",
+//   image: "/images/pfp/Atishay.jpeg",
+//   github: "https://github.com/atishay29/Samvaad_saathi",
+//   linkedin:"https://www.linkedin.com/in/atishay-jain-at20/",
+//   description: "Passionate about tech and design."
+// },
+// {
+//   name: "Swati Kumari",
+//   role: "Member",
+//   image: "/images/pfp/Swati.jpeg",
+//   github: "https://github.com/Swati-sankrit",
+//   linkedin:"https://www.linkedin.com/in/swati-sankrit/",
+//   description: ""
+// },
+// {
+//   name: "Anupriya Tuli",
+//   role: "Project Mentor",
+//   image: "/images/pfp/AnupriyaTuli.jpeg",
+//   github: "https://anupriyatuli.github.io/publication.html",
+//   linkedin:"https://www.linkedin.com/in/anupriya-tuli/",
+//   description: ""
+// },
 
 
 
-],
-},
+// ],
+// },
 {
 id:7,
 title: 'Vidya Vaani',
@@ -831,7 +822,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: "Software was simple...until it met grandma testing"
     },
     {
-      name: "{Ritesh Baviskar}",
+      name: "Ritesh Baviskar",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -839,7 +830,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Himanshu Sharma}",
+      name: "Himanshu Sharma",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -847,7 +838,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Ayush Kumar}",
+      name: "Ayush Kumar",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -855,7 +846,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Praneeth}",
+      name: "Praneeth",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -863,7 +854,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Mukul Saini}",
+      name: "Mukul Saini",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -871,7 +862,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Aditya Ranjan}",
+      name: "Aditya Ranjan",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -879,7 +870,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Arnav Jagtap}",
+      name: "Arnav Jagtap",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -887,7 +878,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Dhruv Rai}",
+      name: "Dhruv Rai",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -895,7 +886,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Akshat}",
+      name: "Akshat",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -903,7 +894,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{ShaonDeep}",
+      name: "ShaonDeep",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -911,7 +902,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Ishita}",
+      name: "Ishita",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -919,7 +910,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Abhigyan Deka}",
+      name: "Abhigyan Deka",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -927,7 +918,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Vaibhav}",
+      name: "Vaibhav",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -935,7 +926,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Krishna Agrawal}",
+      name: "Krishna Agrawal",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -943,7 +934,7 @@ technologies: ['Machine Learning', 'Hugging Face'],
       description: ""
     },
     {
-      name: "{Durba}",
+      name: "Durba",
       role: "Member",
       image: "/images/pfp/acc.png",
       github: "",
@@ -962,7 +953,6 @@ technologies: ['Machine Learning', 'Hugging Face'],
   ],
     }
 ]
-
 
 export const EMAIL_JS_SERVICE_ID = 'service_vpv8xpp';
 export const EMAIL_JS_TEMPLATE_ID = 'template_i3uvdt9';

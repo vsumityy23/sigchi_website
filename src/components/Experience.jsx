@@ -10,7 +10,7 @@ import eventIcon from '../assets/calendar-icon.png'; // Adjust path based on you
 const Experience = () => {
   return (
     <div
-      className="experience bg-black w-screen text-white pt-4 pt-16 overflow-x-hidden"
+      className="experience bg-black w-screen text-white pt-16 overflow-x-hidden"
       id="experience"
     >
       <div className="pt-12 sm:px-16 text-center">

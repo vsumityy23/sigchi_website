@@ -57,7 +57,7 @@ const ProjectDetails = () => {
 
   return (
     <div className="bg-black">
-      <div className="flex flex-wrap gap-7 justify-center items-center text-white mt-5">
+      <div className="flex flex-wrap gap-7 justify-center items-center text-white mt-10">
         <div className="pt-12 sm:px-16 text-center">
           <h2 className="text-4xl sm:text-5xl font-extrabold mt-2">
             {selectedProject.title}

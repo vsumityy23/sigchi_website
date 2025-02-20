@@ -8,37 +8,44 @@
 		top: -300px;
 		opacity: 0;
 	}
+
 	to {
 		top: 0;
 		opacity: 1;
 	}
 }
+
 @keyframes animatetop {
 	from {
 		top: -300px;
 		opacity: 0;
 	}
+
 	to {
 		top: 0;
 		opacity: 1;
 	}
 }
+
 @-webkit-keyframes zoomIn {
 	0% {
 		opacity: 0;
 		-webkit-transform: scale3d(0.3, 0.3, 0.3);
 		transform: scale3d(0.3, 0.3, 0.3);
 	}
+
 	50% {
 		opacity: 1;
 	}
 }
+
 @keyframes zoomIn {
 	0% {
 		opacity: 0;
 		-webkit-transform: scale3d(0.3, 0.3, 0.3);
 		transform: scale3d(0.3, 0.3, 0.3);
 	}
+
 	50% {
 		opacity: 1;
 	}
@@ -163,7 +170,27 @@
 }
 
 
+@keyframes textAnimation {
+	0% {
+		background-position: 0% 50%;
+	}
 
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.animate-text {
+	background: linear-gradient(90deg, #ff2a2a, #6464db, #db9129);
+	background-size: 200% 200%;
+	animation: textAnimation 5s ease infinite;
+	-webkit-background-clip: text;
+	color: transparent;
+}
 
 
 
