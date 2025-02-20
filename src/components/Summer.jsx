@@ -186,7 +186,10 @@ const SummerSchool = () => {
 
           <div className="mt-10">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScOK0DaDatJSFPVFxcQhNSYK7E187WnzNb2Yc4d1VVv8NrapQ/viewform"
+            
+               href="https://docs.google.com/forms/d/e/1FAIpQLScOK0DaDatJSFPVFxcQhNSYK7E187WnzNb2Yc4d1VVv8NrapQ/viewform" 
+        target="_blank" 
+      rel="noopener noreferrer"
               className="inline-block px-8 py-3 text-lg font-semibold text-white bg-blue-600 hover:bg-blue-700 transition shadow-md duration-300 ease-in-out"
             >
               Register Now
